@@ -34,7 +34,7 @@ public class RepositoryDetailsController {
 	public String getRepos() throws IOException {
 		GitHub github = new GitHubBuilder().withPassword("stalin.lenin@gmail.com", "XXXXXXXX").build();
 		GHRepositorySearchBuilder builder = github.searchRepositories();
-		return "Hello Anuj, Welcome to K8s Deployment ! Application is deployed on EKS Cluster !!!";
+		return "Hello Darsh, Welcome to K8s Deployment ! Application is deployed on EKS Cluster !!!";
 	}
 
 	@GetMapping("/trends")
